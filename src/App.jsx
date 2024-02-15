@@ -1,16 +1,19 @@
 import './styles/App.css'
 import  {Test}  from '../src/components/Test.jsx'
-export const App = () =>{
+import {Navbar} from '..src/components/Navbar.jsx'
+const App = () =>{
 
     return (
 
         <>
 
-          <Test mensaje={"hola"} />  
+          <Navbar/> 
+           
 
         </>
 
     )
 
 }
+export default App
 
