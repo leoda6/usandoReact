@@ -9,5 +9,5 @@ export const Test = ({ mensaje }) => {
 }
 
 Test.propTypes = {
-    mensaje: PropTypes.string.isRequired
+    mensaje: PropTypes.string
 };

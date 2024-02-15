@@ -1,18 +1,16 @@
 import './styles/App.css'
-import  Test  from '../src/components/Test.jsx'
-function App() {
+import  {Test}  from '../src/components/Test.jsx'
+export const App = () =>{
 
     return (
 
         <>
 
-          <Test />  
+          <Test mensaje={"hola"} />  
 
         </>
 
     )
 
 }
-export default App
-
 
