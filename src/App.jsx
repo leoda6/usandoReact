@@ -1,11 +1,18 @@
 import './styles/App.css'
-import { Test } from './components/Test'
-export const App = () => {
+import  Test  from '../src/components/Test.jsx'
+function App() {
+
     return (
+
         <>
-         <Test/>
+
+          <Test />  
+
         </>
+
     )
+
 }
+export default App
 
 
